@@ -1,0 +1,37 @@
+.player-stat .player{
+    position: static !important;
+    margin: 0 auto;
+}
+
+
+.orange-panel{
+    width: 100%;
+    height: 100%;
+    padding: 2vw;
+}
+
+.tab{
+    margin-left: 5vw;
+}
+
+.player-skills li{
+    white-space: normal;
+    margin: 1vh 0;
+}
+
+@media only screen and (max-width: 500px){
+
+    .player-skills{
+        margin-top: 3vh;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px){
+    .player-skills{
+        margin-top: 2vh;
+    }
+}
+@media only screen and (min-width: 3000px){
+    .second-row{
+        margin-top: 5vh !important;
+    }
+}

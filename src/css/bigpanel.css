@@ -1,0 +1,28 @@
+
+
+.big-panel{
+    background-image: url("/assets/menu_panel_big.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 85vh;
+    padding-top: 8vh;
+    animation: big-top-to-down 0.8s ease-out forwards;
+}
+
+@media only screen and (max-width: 500px){
+
+    .big-panel{
+        background-image: url("/assets/menu_panel_mobile.png");
+        margin-top: -10vh;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 1080px){
+    .big-panel{
+        background-image: url("/assets/menu_panel_tablet.png");
+        background-size: cover;
+        height: 85vh;
+        margin-top: -5vh;
+        margin: 0 auto;
+    }
+}

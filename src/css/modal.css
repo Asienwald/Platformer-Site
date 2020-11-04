@@ -1,0 +1,102 @@
+.modal-container{
+    background: linear-gradient(90deg, #E7E7E7 50%, #F8F8F8 50%);
+    position: absolute;
+    width: 80vw;
+    min-height: 90vh;
+    z-index: 99;
+    top: 5vh;
+    left: 10vw;
+    border-radius: 50px;
+    padding: 5%;
+    box-shadow: 5px 10px 8px #888888;
+    margin-bottom: 5vh;
+}
+.modal-container .row{
+    min-height: 70vh;
+}
+
+.projects-modal .left-view{
+    height: 100%;
+}
+.left-view img{
+    width: auto;
+    height: 40vh;
+    border: 2px solid #D3D3D3;
+}
+
+.right-view{
+    margin-left: 5vw;
+}
+
+.modal-cross{
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+    cursor: pointer;
+}
+.modal-cross svg{
+    height: 3vw;
+    width: 3vw;
+}
+
+.link-icon{
+    background-size: cover;
+    height: auto;
+    width: 3vw;
+    transform: rotate(90deg);
+}
+
+.projects-modal .built-with-wrapper{
+    border-left: 6px solid #575757;
+    padding-left: 1vw;
+}
+
+.left-view .selected-img{
+    height: auto;
+    max-width: 90%;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 500px){
+    .my-modal .size-20{
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .modal-container{
+        width: 90vw;
+        left: 5vw;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #E7E7E7 50%, #F8F8F8 50%);
+        margin-bottom: 5vh;
+    }
+    .modal-cross{
+        right: 4vw;
+        top: 4vh;
+    }
+    .modal-cross svg{
+        height: 8vw;
+        width: 8vw;
+    }
+    .left-view{
+        margin-top: 10vh;
+    }
+    .left-view img{
+        max-width: 80vw;
+        height: auto;
+    }
+    .right-view{
+        margin-top: 10vh;
+    }
+    .projects-modal .right-view{
+        margin-top: 5vh;
+    }
+
+    .projects-modal .built-with-wrapper{
+        padding-left: 3vw;
+    }
+    .projects-modal .built-with-wrapper li{
+        margin-left: 3vw;
+    }
+}

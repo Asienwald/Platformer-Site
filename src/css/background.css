@@ -1,0 +1,24 @@
+@keyframes moving-parallax{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100vw);
+    }
+}
+
+.parallax{
+    background-repeat: repeat-x;
+    min-height: -webkit-fill-available;
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-position: bottom;
+    position: fixed;
+    bottom: 0;
+    animation-name: moving-parallax;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    z-index: -2;
+}

@@ -1,0 +1,122 @@
+﻿{
+  "stats": {
+    "name": "Name",
+    "age": 18,
+    "occupation": "Student studying at xxx university!",
+    "status": "Watching baking videos and cats",
+    "skills": [
+      "Juggling 100 balls",
+      "reactjs",
+      "typescript",
+      "redux",
+      "UI/UX Design"
+    ],
+    "toolsUsed": [
+      "VSCode",
+      "Android Studio",
+      "Figma",
+      "AutoCAD"
+    ]
+  },
+  "education": {
+    "schoolList": [
+      {
+        "schoolName": "xxx University",
+        "studyPeriod": "2017-Current",
+        "studyScope": "Degree in Software engineering",
+        "academicComponent": {
+          "gpa": "4.00",
+          "sectionList": [
+            {
+              "sectionTitle": "Year 1",
+              "bulletPoints": [
+                "Insert year 1 activity here"
+              ]
+            },
+            {
+              "sectionTitle": "Sub section 2",
+              "bulletPoints": [
+                "insert more activity here"
+              ]
+            }
+          ]
+        },
+        "ccaList": [
+          "Cycling club member",
+          "green club member"
+        ],
+        "awardsList": [
+          "Best student of the year!"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "positionList": [
+      {
+        "role": "Intern",
+        "division": "Marketing Dept.",
+        "organisation": "xx industries",
+        "positionPeriod": "Sept 2020 to Present",
+        "descriptionList": [
+          "insert job role or description"
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "awards": [
+      {
+        "achievementRoute": "achievement-route-1",
+        "issueDate": "Achievement Date",
+        "title": "Achievement Name",
+        "issuedBy": "Awarded by",
+        "descripList": [
+          "Description of achievement/award"
+        ]
+      }
+    ],
+    "certs": [
+      {
+        "achievementRoute": "achievement-route-2",
+        "issueDate": "Achievement Date",
+        "title": "Achievement Name",
+        "issuedBy": "Awarded by",
+        "descripList": [
+          "Description of achievement/award"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "projectRoute": "project-1",
+      "imageUrlList": [
+        ""
+      ],
+      "projectTitle": "Project Name",
+      "projectPeriod": "Ongoing",
+      "tags": [
+        "Game Dev",
+        "Unity",
+        "Infocomm Security"
+      ],
+      "builtWith": [
+        "Unity Game Engine",
+        "Unity WebGL",
+        "C#",
+        "Firebase"
+      ],
+      "projectLink": "https://youtu.be/dQw4w9WgXcQ",
+      "descripList": [
+        "More details on the project!"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "email@gmail.com",
+    "discord": "MyName#9999",
+    "linkedinLink": "https://youtu.be/dQw4w9WgXcQ",
+    "githubLink": "https://youtu.be/dQw4w9WgXcQ"
+  }
+}

@@ -1,0 +1,88 @@
+
+
+.circle-point{
+    height: 4vw;
+    width: 4vw;
+    background-color: #E0E0E0;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.circle-point-inside{
+    height: 2.4vw;
+    width: 2.4vw;
+    background-color: #004E96;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -1.2vw 0 0 -1.2vw;
+}
+.map-link{
+    cursor: pointer;
+}
+.map-link p{
+    white-space: nowrap;
+}
+.map-link:hover .circle-point-inside{
+    background-color: #ED2114;
+}
+.map-link:hover p{
+    color: #ED2114;
+}
+
+@media only screen and (max-width: 500px){
+    .menu{
+        min-height: 75vh;
+    }
+    .map-links{
+        margin: 0 2vw !important;
+    }
+}
+@media only screen and (max-width: 900px){
+    .map-link{
+        margin-top: 3vh! important;
+    }
+    .circle-point{
+        height: 8vw !important;
+        width: 8vw !important;
+    }
+    .circle-point-inside{
+        height: 4vw;
+        width: 4vw;
+        margin: -2vw 0 0 -2vw;
+    }
+}
+@media only screen and (min-width: 1600px) and (max-width: 2000px){
+    .map-link{
+        margin: 3vh 0;
+    }
+    .map-links{
+        margin-top: 5vh;
+    }
+}
+@media only screen and (min-width: 2000px){
+    .map-links{
+        margin: 5vh 5vw !important;
+    }
+    .map-link{
+        margin: 3vh;
+        margin-left: 1vh;
+    }
+    .circle-point{
+        height: 3vw !important;
+        width: 3vw !important;
+    }
+    .circle-point-inside{
+        height: 1.5vw;
+        width: 1.5vw;
+        margin: -0.75vw 0 0 -0.75vw;
+    }
+}
+@media only screen and (min-width: 3000px){
+    .map .size-50{
+        margin-top: 5vh !important;
+    }
+}

@@ -1,0 +1,27 @@
+.menu{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 10px solid #3067B9;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    min-height: 80vh;
+    margin-bottom: 10vh !important;
+    padding: 2vw 5vw 2vw 5vw;
+    user-select: all !important;
+}
+
+@media only screen and (max-width: 500px){
+    .menu{
+        margin: 0 auto;
+        margin-top: 5vh;
+        border: 6px solid #3067B9;
+        padding-bottom: 6vh;
+        margin-bottom: 20vh !important;
+    }
+}
+@media only screen and (max-width: 900px){
+    .menu{
+        padding-top: 3vh;
+        margin-bottom: 20vh !important;
+        padding-bottom: 6vh;
+    }
+}   

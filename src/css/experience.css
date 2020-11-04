@@ -1,0 +1,16 @@
+.position{
+    border-left: 4px solid #00FF66;
+    padding-left: 3vw;
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 3000px){
+    .position{
+        border-left: 8px solid #00FF66;
+    }
+}
+
+@media only screen and (min-width: 3000px){
+    .position{
+        border-left: 12px solid #00FF66;
+    }
+}

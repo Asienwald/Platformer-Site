@@ -1,0 +1,210 @@
+@keyframes animate-idle{
+    from{
+        background-position-x: 0px;
+        background-image: url(/assets/girl_idle.png);
+        animation-timing-function: steps(8);
+        width: 108px;
+    }
+    to{
+        background-position-x: -865px;
+        background-image: url(/assets/girl_idle.png);
+        animation-timing-function: steps(8);
+        width: 108px
+    }
+}
+
+
+@keyframes animate-running{
+    from{
+        background-position-x: 0px;
+        background-image: url(/assets/girl_run.png);
+        animation-timing-function: steps(6);
+        width: 87px;
+    }to{
+        background-position-x: -522px;
+        background-image: url(/assets/girl_run.png);
+        animation-timing-function: steps(6);
+        width: 87px;
+    }
+}
+
+
+
+
+.player{
+    height: 132px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: animate-idle;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    bottom: 8vh;
+    animation-play-state: running;
+    left: 8%;
+    /* transform: scaleX(-1); */
+    position: fixed;
+}
+
+.center-middle{
+    left: 45% !important;
+}
+
+@media only screen and (max-width: 500px){
+    .center-middle{left: 40% !important;}
+
+    .player{
+        height: 78px;
+        bottom: 6vh;
+    }
+
+    @keyframes animate-running{
+        from{
+            background-position-x: 0px;
+            background-image: url(/assets/girl_run.png);
+            animation-timing-function: steps(6);
+            width: 52px;
+        }to{
+            background-position-x: -312px;
+            background-image: url(/assets/girl_run.png);
+            animation-timing-function: steps(6);
+            width: 52px;
+        }
+    }
+
+    @keyframes animate-idle{
+        from{
+            background-position-x: 0px;
+            background-image: url(/assets/girl_idle.png);
+            animation-timing-function: steps(8);
+            width: 64px;
+        }
+        to{
+            background-position-x: -510px;
+            background-image: url(/assets/girl_idle.png);
+            animation-timing-function: steps(8);
+            width: 64px
+        }
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px){
+    .player{
+        bottom: 6vh;
+    }
+    .center-middle{
+        left: 42% !important;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2100px){
+    .center-middle{
+        left: 46% !important;
+    }
+    .player{
+        height: 176px;
+    }
+
+    @keyframes animate-running{
+        from{
+            background-position-x: 0px;
+            background-image: url(/assets/girl_run.png);
+            animation-timing-function: steps(6);
+            width: 117px;
+        }to{
+            background-position-x: -702px;
+            background-image: url(/assets/girl_run.png);
+            animation-timing-function: steps(6);
+            width: 117px;
+        }
+    }
+
+    @keyframes animate-idle{
+        from{
+            background-position-x: 0px;
+            background-image: url(/assets/girl_idle.png);
+            animation-timing-function: steps(8);
+            width: 144px;
+        }
+        to{
+            background-position-x: -1152px;
+            background-image: url(/assets/girl_idle.png);
+            animation-timing-function: steps(8);
+            width: 144px
+        }
+    }
+}
+@media only screen and (min-width: 2100px) and (max-width: 3100px){
+    .center-middle{
+        left: 46% !important;
+    }
+    .player{
+        height: 220px;
+    }
+
+    @keyframes animate-running{
+        from{
+            background-position-x: 0px;
+            background-image: url(/assets/girl_run.png);
+            animation-timing-function: steps(6);
+            width: 146px;
+        }to{
+            background-position-x: -876px;
+            background-image: url(/assets/girl_run.png);
+            animation-timing-function: steps(6);
+            width: 146px;
+        }
+    }
+
+    @keyframes animate-idle{
+        from{
+            background-position-x: 0px;
+            background-image: url(/assets/girl_idle.png);
+            animation-timing-function: steps(8);
+            width: 180px;
+        }
+        to{
+            background-position-x: -1440px;
+            background-image: url(/assets/girl_idle.png);
+            animation-timing-function: steps(8);
+            width: 180px
+        }
+    }
+}
+
+@media only screen and (min-width: 3100px){
+    .center-middle{
+        left: 46% !important;
+    }
+    .player{
+        height: 352px;
+    }
+
+    @keyframes animate-running{
+        from{
+            background-position-x: 0px;
+            background-image: url(/assets/girl_run.png);
+            animation-timing-function: steps(6);
+            width: 234px;
+        }to{
+            background-position-x: -1404px;
+            background-image: url(/assets/girl_run.png);
+            animation-timing-function: steps(6);
+            width: 234px;
+        }
+    }
+
+    @keyframes animate-idle{
+        from{
+            background-position-x: 0px;
+            background-image: url(/assets/girl_idle.png);
+            animation-timing-function: steps(8);
+            width: 288px;
+        }
+        to{
+            background-position-x: -2304px;
+            background-image: url(/assets/girl_idle.png);
+            animation-timing-function: steps(8);
+            width: 288px
+        }
+    }
+}

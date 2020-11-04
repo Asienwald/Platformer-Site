@@ -1,0 +1,145 @@
+.carousel-section{
+    min-height: 45vh;
+}
+.project-carousel{
+    min-height: 75vh;
+    min-width: 57vw;
+}
+
+.carousel-section hr, .project-carousel hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #02FFF0;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2vh;
+}
+
+.carousel-btn{
+    display: block;
+    width: 100%;
+    max-height: 5vh;
+    width: auto;
+    margin-top: -1vh;
+    cursor: pointer;
+}
+
+.page-container{
+    padding: 0 !important;
+    width: 56vw !important;
+    height: 40vh !important;
+}
+.project-carousel .page-container{
+    width: 56vw !important;
+    height: 65vh !important;
+}
+.page-container:first-child{
+    transform: translateX(0) !important;
+}
+.my-modal .page-container{
+    margin-top: 3vh;
+    height: 20vh !important;
+    width: 90% !important;
+    position: static;
+}
+.my-modal .card-col{
+
+}
+.my-modal .card-col img{
+    width: 100%;
+    height: auto;
+}
+.projects-modal .carousel-controls{
+    position: static;
+    /* bottom: -7vh;
+    left: 0; */
+    margin-top: 2vh;
+}
+.projects-modal .carousel-controls img{
+    filter: invert(31%) sepia(0%) saturate(1499%) hue-rotate(157deg) brightness(102%) contrast(88%);
+    border: none;
+}
+
+.card{
+    overflow: hidden;
+    padding: 0;
+}
+
+.card .card-img{
+    width: auto;
+    height: auto;
+    max-height: 20vh;
+    overflow: hidden;
+    border: 5px solid #6C6C6C;
+    vertical-align: middle;
+}
+
+.card-img img{
+    width: 100%;
+    height: auto;
+}
+
+.indicator-wrapper{
+    min-width: 5vw;
+    min-height: 5vh;
+    position: relative;
+}
+
+.project-carousel .card-col{
+    margin-top: 2vh;
+}
+
+
+@media only screen and (max-width: 500px){
+    .carousel-section{
+        min-height: 90vh;
+    }
+    .card{
+        margin-top: 2vh;
+    }
+    .page-container{
+        min-width: 78vw !important;
+        min-height: 80vh !important;
+    }
+    .my-modal .page-container{
+        min-height: 20vh !important;
+    }
+    
+    .project-carousel{
+        min-height: 90vh;
+    }
+    .project-carousel .page-container{
+        min-height: 80vh !important;
+    }
+    .project-carousel .carousel-section{
+        min-height: 90vh;
+    }
+    .card-col{
+        padding: 0;
+    }
+
+    .indicator-wrapper{
+        min-width: 30vw;
+    }
+
+    .carousel-section .size-20, .project-carousel .size-20{
+        font-size: 4vw;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px){
+    .page-container{
+        min-width: 70vw !important;
+    }
+    .indicator-wrapper{
+        min-width: 20vw;
+    }
+
+    .my-modal .page-container{
+        margin: 5vh auto;
+        margin-bottom: 0;
+    }
+    .my-modal .carousel-controls{
+        position: static;
+    }
+}

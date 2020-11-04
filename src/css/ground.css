@@ -1,0 +1,62 @@
+@keyframes moving-ground{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100vw);
+    }
+}
+
+.ground{
+    background-repeat: repeat-x;
+    width: 100vw;
+    height: 8vh;
+    bottom: 0;
+    background-size: contain;
+    animation: moving-ground 8s linear forwards;
+    animation-iteration-count: infinite;
+    position: fixed;
+}
+
+.footer{
+    bottom: 0;
+    left: 40%;
+}
+
+.footer-icons{
+    bottom: 1vh;
+    right: 3vw;
+}
+.footer-icon{
+    font-size: 2vw;
+    margin-left: 2vw;
+}
+
+@media only screen and (max-width: 500px){
+    .ground{
+        height: 6vh;
+    }
+
+    .footer{
+        left: 25%;
+    }
+    .footer-icon{
+        font-size: 5vw;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px){
+    .ground{
+        height: 6vh;
+    }
+    .footer{
+        left: 35%;
+    }
+    .footer-icon{
+        font-size: 4vw;
+    }
+}
+@media only screen and (min-width: 2000px){
+    .footer-icon{
+        font-size: 2.8vw;
+    }
+}

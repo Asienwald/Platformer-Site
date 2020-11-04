@@ -1,0 +1,314 @@
+@import url('https://fonts.cdnfonts.com/css/visitor');
+
+/* remove annoying stuff */
+p, h1, h2{
+    line-height: normal;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* for fonts */
+@font-face{
+    font-family: khyay;
+    src: url("/font/Khyay-Regular.ttf");
+}
+.khyay{
+    font-family: khyay;
+}
+
+/* animations */
+@keyframes fade-in{
+    0%{
+        opacity: 0%;
+    }
+    66%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes blink-anim{
+    0%{
+        border: 3px solid #FF833D;
+    }25%{
+        border: 3px solid transparent;
+    }
+    50%{
+        border: 3px solid #FF833D;
+    }100%{
+        border: 3px solid transparent;
+    }
+}
+
+.blink{
+    animation: blink-anim 1s steps(1) forwards;
+    animation-fill-mode: none;
+    /* animation-iteration-count: 2; */
+    opacity: 100% !important;
+}
+
+/* title styling */
+.title{
+
+}
+.hide{
+    display: none !important;
+}
+.show{
+    display: block !important;
+}
+
+/* back button style */
+.back-world{
+    position: fixed;
+    top: 3vh;
+    left: 3vw;
+    width: 40vw;
+    cursor: pointer;
+    z-index: 2;
+    filter: invert(31%) sepia(93%) saturate(6360%) hue-rotate(351deg) brightness(101%) contrast(115%);
+}
+.back-world:hover{
+    filter: invert(45%) sepia(73%) saturate(4113%) hue-rotate(1deg) brightness(102%) contrast(107%);
+}
+.back-world-icon{
+    background-image: url('/assets/back_white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 3vw;
+}
+
+
+/* font family */
+div{
+    font-family: "Visitor TT2 BRK";
+}
+h1{
+    font-family: "Visitor TT1 BRK";
+}
+
+/* debug */
+.red{
+    border: 2px red solid !important;
+}
+.blue{
+    border: 2px blue solid !important;
+}
+
+/* list styles */
+ul{
+    font-size: 0; 
+    margin: 0;
+    padding: 0 1vw;
+ }
+ ul li{
+    font-size: 1.8vw;
+    line-height: normal;
+    white-space: nowrap;
+ }
+
+
+/* colours */
+.color-red{
+    color: #FF0E0E;
+}
+
+.color-orange{
+    color: #FF833D;
+}
+.color-green{
+    color: #00FF57;
+}
+.color-purple{
+    color: #A282FF;
+}
+.color-darkpurple{
+    color: #9F65FF;
+}
+.color-lightblue{
+    color: #00E0FF;
+}
+.color-darkgrey{
+    color: #575757;
+}
+.color-grey{
+    color: #BDBBBB;
+}
+.color-blue{
+    color: #5B87F8;
+}
+.color-cyan{
+    color: #02FFF0;
+}
+.color-linkedinblue{
+    color: #0e76a8;
+}
+
+/* font sizes */
+.size-60{
+    font-size: 4vw;
+}
+.size-50{
+    font-size: 3.2vw;
+}
+.size-45{
+    font-size: 2.8vw;
+}
+.size-40{
+    font-size: 2.5vw;
+}
+.size-35{
+    font-size: 2.3vw;
+}
+.size-30{
+    font-size: 2vw;
+}
+.size-25{
+    font-size: 1.6vw;
+}
+.size-20{
+    font-size: 1vw;
+}
+.size-15{
+    font-size: 0.8vw;
+}
+
+
+@media only screen and (max-width: 500px){
+    .title{
+        text-align: center !important;
+    }
+    ul li{
+        font-size: 5vw;
+    }
+    .size-60{
+        font-size: 14vw;
+    }
+    .size-50{
+        font-size: 10vw;
+    }
+    .size-45{
+        font-size: 8vw;
+    }
+    .size-40{
+        font-size: 7vw;
+    }
+    .size-35{
+        font-size: 6.6vw;
+    }
+    .size-30{
+        font-size: 6vw;
+    }
+    .size-25{
+        font-size: 4vw;
+    }
+    .size-20{
+        font-size: 3vw;
+    }
+    .size-15{
+        font-size: 2.6vw;
+    }
+    .back-world{
+        position: fixed;
+        left: initial;
+        bottom: 8vh;
+        right: 20vw;
+        top: initial;
+    }
+    .back-world-icon{
+        width: 8vw;
+        height: 8vw;
+    }
+    .back-world p{
+        padding: 0;
+        margin: auto 0 !important;
+        margin-left: 2vw !important;
+        font-size: 5vw !important;
+    }
+
+    /* special stylings */
+    .my-modal .size-40{
+        font-size: 10vw;
+    }
+    .my-modal .size-20{
+        font-size: 4vw;
+    }
+    .my-modal .size-15{
+        font-size: 3.5vw;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 1000px){
+    .title{
+        text-align: center !important;
+    }
+    ul li{
+        font-size: 3vw;
+    }
+    .size-60{
+        font-size: 9vw;
+    }
+    .size-50{
+        font-size: 8vw;
+    }
+    .size-45{
+        font-size: 6vw;
+    }
+    .size-40{
+        font-size: 5vw;
+    }
+    .size-35{
+        font-size: 4.5vw;
+    }
+    .size-30{
+        font-size: 3vw;
+    }
+    .size-25{
+        font-size: 2.8vw;
+    }
+    .size-20{
+        font-size: 2vw;
+    }
+    .size-15{
+        font-size: 2vw;
+    }
+
+    .back-world{
+        position: fixed;
+        left: initial;
+        top: initial;
+        bottom: 10vh;
+        right: 20vw;
+    }
+    .back-world-icon{
+        width: 5vw;
+        height: 5vw;
+    }
+    .back-world p{
+        padding: 0;
+        margin: auto 0 !important;
+        margin-left: 2vw !important;
+        font-size: 4vw !important;
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width: 2000px){
+    .size-50{
+        font-size: 3.5vw;
+    }
+}
+@media only screen and (min-width: 2000px) and (max-width: 3000px){
+    .size-50{
+        font-size: 3vw;
+    }
+}
+@media only screen and (min-width: 3000px){
+    .size-50{
+        font-size: 4vw;
+    }
+    .title{
+        margin-top: 0 !important;
+    }
+}
