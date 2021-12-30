@@ -1,5 +1,4 @@
-# This platformer site is really just an excuse for me to learn React. Original repo asienwald.github.io is privated since it contains extra features that I have chosen not to open source and this repo is a slightly different backup version of it
-Being a single developer, relatively small site, there wasn't really a reason for me to add more complexity to the code by implementing Typescript and Redux...but all in the name of learning right?  
+# Original repo at  https://github.com/Asienwald/asienwald.github.io
 
 
 Though through building this site, I really learnt a lot.  
